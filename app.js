@@ -2,6 +2,7 @@ const soda = document.getElementById('soda');
 const cheese = document.getElementById('cheese');
 const grapes = document.getElementById('grapes');
 const bread = document.getElementById('bread');
+const melon = document.getElementById('watermelon');
 
 soda.addEventListener('click', () => {
     soda.classList.toggle('picked');
@@ -17,4 +18,8 @@ grapes.addEventListener('click', () => {
 
 bread.addEventListener('click', () => {
     bread.classList.toggle('picked');
+});
+
+melon.addEventListener('click', () => {
+    melon.classList.toggle('picked');
 });
